@@ -32,11 +32,11 @@
 
 ### Example of a Disordered Message Configuration
 
-<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Original_Message.PNG" align="center" height="420" width="580" ></a>
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Original_Message.PNG" align="center" height="460" width="500" ></a>
 
 ### Example of an Optimized Message Configuration
 
-<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Optimized_Message.PNG" align="center" height="420" width="580" ></a>
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Optimized_Message.PNG" align="center" height="460" width="500" ></a>
  
  
 ## Input File Structure and Remarks   
