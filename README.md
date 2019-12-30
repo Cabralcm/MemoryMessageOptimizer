@@ -10,6 +10,10 @@
 4) Data Visualization - Displays plots comparing: Current Efficiency, Optimized Efficiency, and Perfect Memory Utilization
 5) Automatically generates files with message elements in optimized configuration
 
+## Python Package Dependencies
+1) [Pandas](https://pypi.org/project/pandas/#files)
+2) [Matplotlib](https://pypi.org/project/matplotlib/)
+
 ## Technique - Simplified 2D Bin Packing Algorithm
 
   [Optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) techniques are the means to select the best value with respect to a set of other available alternatives. In many practical cases, we seek to improve a value, parameter, path, or element or set of elements through manipulating a set of parameter(s). This optimization may involve maximizing, minimizing, or getting close to a specific reference point or metric. Examples of this involve ["hill climbing" algorithms](https://en.wikipedia.org/wiki/Hill_climbing), where one starts with an arbitary solution (that may or may not be optimial), and attempts to find a better solution through iterative changes. If the change results in improving the existing solution, then it is incorporated, and another change will be attempted. This process continues until: no further improvements can be made, the magnitude of those improvements become diminishingly small (example of diminishing returns), or the desired level of accuracy of optimization (sometimes called "error") is achieved. The technique accomplished by this tool performs a local search in a single pass. It does not search globally for a solution due to the exhaustive nature of that process. It was more important for this program to be run quickly and return a reasonably good solution, then take more time and perform a more thorough search to return the most optimial solution (e.g. global maximum).
@@ -28,11 +32,11 @@
 
 ### Example of a Disordered Message Configuration
 
-<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Original_Message.PNG" align="center" height="380" width="640" ></a>
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Original_Message.PNG" align="center" height="420" width="580" ></a>
 
 ### Example of an Optimized Message Configuration
 
-<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Optimized_Message.PNG" align="center" height="380" width="640" ></a>
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Optimized_Message.PNG" align="center" height="420" width="580" ></a>
  
  
 ## Input File Structure and Remarks   
