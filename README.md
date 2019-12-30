@@ -13,7 +13,9 @@
 1) Organize Messages via Size (i.e. length of characters) in the form of a Max Heap
 2) Pop off 
 
-Implementation of 2D Bin Packing Optimization Algorithm to improve memory utilization efficiency
+## Implementation of 2D Bin Packing Optimization Algorithm to improve memory utilization efficiency
+
+![Message System](https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Message_System.png)
 
 
 
