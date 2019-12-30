@@ -2,7 +2,7 @@
 
   This repository is details an end-to-end optimization solution that was built for a real-time messaging system. The specific use-case has been redacted as it is superflucous to the exercise itself. Instead effort has been made to demonstrate fundamental principles of: computing and data structures, algorithmic thinking, basic compression, data visualization, user considerations, and automation.
 
-## Summary of Features - Optimization Script for 2D Memory Buffer
+## Summary of Features
 
 1) Reads input files from given directory, parses message element regions, ignores non-message space.
 2) Computes current inefficiency of memory utilization (i.e. wasted character space and lines)
@@ -22,14 +22,7 @@
    
    In order to optimize a given configuration, we first read in all the messages from the existing configuration, and try to build a new sequential configuration that descreases the number of wasted characters and lines.
    
-   First use a Max Heap data structure to store all of the messages. We determine the remaining un-used space on a given line of the memory buffer, we will search through this Max Heap to find if there exists a message that is equal to or smaller than this remaining space. If so, remove it from the Max Heap, and add it to the *New Sequential Configuration* of messages.
-    
-## Input File Structure and Remarks   
-   As with any set of input that follows a fixed structure, there are symbols and identifiers for indicating different types of data. In our case we have simplified that into: *message* and *non-message* data. We will not be delving into this here, as it is tangential to the algorithm as a whole, but it is important to note that this tool is built to read in raw input files as actively utilized by the message system, and not merely cleaned up versions of the messages themselves. This provides an convenient means for the user to make use of this tool without significant work on their part.
-   
-## Data-Visualization and Automation
-  In addition to the optimization function, this tool provides a clean data-visualization of **before** and **after** the optimization has taken place. This is useful to inform the extent of the optmization, demonstrate its value, as well determine its necessity. The input files are actively being worked on, and over time entropy may build, and the optimial configuration of the messages may drift, thus demonstrating that it is necessary to optimize the message buffer. Conversely, if the messages are in a reasonably good configuration, it may not be necessary to expend the effort to refactor the messages. The process of changing the message code in production is a highly involved process with many checks and balances, thus chaanges should only be undertaken if they pose a significant enough benefit.
-
+   First use a Max Heap data structure to store all of the messages. We determine the remaining un-used space on a given line of the memory buffer, we will search through this Max Heap to find if there exists a message that is equal to or smaller than this remaining space. If so, remove it from the Max Heap, and add it to the **New Sequential Configuration** of messages. Otherwise, continue to the next line and add the largest message from the Max Heap to the
 
 ## Implementation of 2D Bin Packing Optimization Algorithm 
 
@@ -40,3 +33,12 @@
 ### Example of an Optimized Message Configuration
 
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Optimized_Message.PNG" align="center" height="380" width="640" ></a>
+ 
+ 
+## Input File Structure and Remarks   
+   As with any set of input that follows a fixed structure, there are symbols and identifiers for indicating different types of data. In our case we have simplified that into: *message* and *non-message* data. We will not be delving into this here, as it is tangential to the algorithm as a whole, but it is important to note that this tool is built to read in raw input files as actively utilized by the message system, and not merely cleaned up versions of the messages themselves. This provides an convenient means for the user to make use of this tool without significant work on their part.
+   
+## Data-Visualization and Automation
+  In addition to the optimization function, this tool provides a clean data-visualization of **before** and **after** the optimization has taken place. This is useful to inform the extent of the optmization, demonstrate its value, as well determine its necessity. The input files are actively being worked on, and over time entropy may build, and the optimial configuration of the messages may drift, thus demonstrating that it is necessary to optimize the message buffer. Conversely, if the messages are in a reasonably good configuration, it may not be necessary to expend the effort to refactor the messages. The process of changing the message code in production is a highly involved process with many checks and balances, thus chaanges should only be undertaken if they pose a significant enough benefit.
+
+
