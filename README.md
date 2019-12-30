@@ -22,7 +22,7 @@
    
    In order to optimize a given configuration, we first read in all the messages from the existing configuration, and try to build a new sequential configuration that descreases the number of wasted characters and lines.
    
-   First use a Max Heap data structure to store all of the messages. We determine the remaining un-used space on a given line of the memory buffer, we will search through this Max Heap to find if there exists a message that is equal to or smaller than this remaining space. If so, remove it from the Max Heap, and add it to the **New Sequential Configuration** of messages. Otherwise, continue to the next line and add the largest message from the Max Heap to the
+   First use a Max Heap data structure to store all of the messages. We determine the remaining un-used space on a given line of the memory buffer, we will search through this Max Heap to find if there exists a message that is equal to or smaller than this remaining space. If so, remove it from the Max Heap, and add it to the **Optimized Configuration** of messages. Otherwise, continue to the next line and add the largest message from the Max Heap to the **Optimized Configuration**. The process ends when the Max Heap is empty.
 
 ## Implementation of 2D Bin Packing Optimization Algorithm 
 
