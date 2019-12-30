@@ -15,8 +15,6 @@
 
 ## Implementation of 2D Bin Packing Optimization Algorithm to improve memory utilization efficiency
 
-
-
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Message_System.png" align="center" height="380" width="640" ></a>
 
 
