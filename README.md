@@ -58,6 +58,9 @@ The program then generates the optimized files, as well as generates a file show
 ## Optimization Tool
 
 ### Main View
+   
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_First.PNG" align="center"></a>
+
 1) Input file directory
 2) Auto-save Optimization Data Visualization Plot
 3) Output Directory, contains:
@@ -65,9 +68,6 @@ The program then generates the optimized files, as well as generates a file show
    - copied raw files 
    - message order list
    - data visualization plot
-   
-   
-<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_First.PNG" align="center"></a>
 
 ### Settings View
 
