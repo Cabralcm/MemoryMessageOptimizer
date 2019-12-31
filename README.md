@@ -29,7 +29,9 @@
    
    First use a Max Heap data structure to store all of the messages. We determine the remaining un-used space on a given line of the memory buffer, we will search through this Max Heap to find if there exists a message that is equal to or smaller than this remaining space. If so, remove it from the Max Heap, and add it to the **Optimized Configuration** of messages. Otherwise, continue to the next line and add the largest message from the Max Heap to the **Optimized Configuration**. The process ends when the Max Heap is empty.
 
-## Implementation of 2D Bin Packing Optimization Algorithm 
+The program then generates the optimized files, as well as generates a file showing the optimized message configuration (where each message is identified using ID numbers).
+
+## Implementation of Message Optimization Algorithm 
 
 ### Example of a Disordered Message Configuration
 
@@ -39,7 +41,12 @@
 
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Optimized_Message.PNG" align="center" height="460" width="500" ></a>
  
- 
+
+## Optimization Tool GUI
+
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_First.PNG" align="center"></a>
+
+
 ## Input File Structure and Remarks   
    As with any set of input that follows a fixed structure, there are symbols and identifiers for indicating different types of data. In our case we have simplified that into: *message* and *non-message* data. We will not be delving into this here, as it is tangential to the algorithm as a whole, but it is important to note that this tool is built to read in raw input files as actively utilized by the message system, and not merely cleaned up versions of the messages themselves. This provides an convenient means for the user to make use of this tool without significant work on their part.
    
