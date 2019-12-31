@@ -10,9 +10,10 @@
 4) Data Visualization - Displays plots comparing: Current Efficiency, Optimized Efficiency, and Perfect Memory Utilization
 5) Automatically generates files with message elements in optimized configuration
 
-## Python Package Dependencies
-1) [Pandas](https://pypi.org/project/pandas/#files)
-2) [Matplotlib](https://pypi.org/project/matplotlib/)
+## Python Dependencies
+1) Written in **Python 2** and GUI built using Tcl/Tk (due to userbase, and legacy systems)
+2) [Pandas](https://pypi.org/project/pandas/#files)
+3) [Matplotlib](https://pypi.org/project/matplotlib/)
 
 ## Technique - Simplified 2D Bin Packing Algorithm
 
