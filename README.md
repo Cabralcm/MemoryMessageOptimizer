@@ -2,6 +2,10 @@
 
   This repository details an end-to-end optimization solution that was built for a real-time messaging system. The specific use-case has been redacted as it is superflucous to the exercise itself. Instead effort has been made to demonstrate fundamental principles of: computing and data structures, algorithmic thinking, basic compression, data visualization, user considerations, and automation.
 
+## TOC
+
+[Dependencies](#python-dependencies)
+
 ## Summary of Features
 
 1) Reads input files from given directory, parses message element regions, ignores non-message space.
@@ -44,13 +48,31 @@ The program then generates the optimized files, as well as generates a file show
 
 ## Optimization Tool GUI
 
+### Main View
+1) Input file directory
+2) Auto-save Optimization Data Visualization Plot
+3) Output Directory, contains:
+   - optimized files
+   - copied raw files 
+   - message order list
+   - data visualization plot
+   
+   
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_First.PNG" align="center"></a>
+
+### Settings View
+
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_Second.PNG" align="center"></a>
+
+## Data-Visualization and Automation
+  In addition to the optimization function, this tool provides a clean data-visualization of **before** and **after** the optimization has taken place. This is useful to inform the extent of the optmization, demonstrate its value, as well determine its necessity. The input files are actively being worked on, and over time entropy may build, and the optimial configuration of the messages may drift, thus demonstrating that it is necessary to optimize the message buffer. Conversely, if the messages are in a reasonably good configuration, it may not be necessary to expend the effort to refactor the messages. The process of changing the message code in production is a highly involved process with many checks and balances, thus chaanges should only be undertaken if they pose a significant enough benefit.
+  
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Data_Vis.png" align="center"></a>
 
 
 ## Input File Structure and Remarks   
    As with any set of input that follows a fixed structure, there are symbols and identifiers for indicating different types of data. In our case we have simplified that into: *message* and *non-message* data. We will not be delving into this here, as it is tangential to the algorithm as a whole, but it is important to note that this tool is built to read in raw input files as actively utilized by the message system, and not merely cleaned up versions of the messages themselves. This provides an convenient means for the user to make use of this tool without significant work on their part.
    
-## Data-Visualization and Automation
-  In addition to the optimization function, this tool provides a clean data-visualization of **before** and **after** the optimization has taken place. This is useful to inform the extent of the optmization, demonstrate its value, as well determine its necessity. The input files are actively being worked on, and over time entropy may build, and the optimial configuration of the messages may drift, thus demonstrating that it is necessary to optimize the message buffer. Conversely, if the messages are in a reasonably good configuration, it may not be necessary to expend the effort to refactor the messages. The process of changing the message code in production is a highly involved process with many checks and balances, thus chaanges should only be undertaken if they pose a significant enough benefit.
+
 
 
