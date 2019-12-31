@@ -2,9 +2,15 @@
 
   This repository details an end-to-end optimization solution that was built for a real-time messaging system. The specific use-case has been redacted as it is superflucous to the exercise itself. Instead effort has been made to demonstrate fundamental principles of: computing and data structures, algorithmic thinking, basic compression, data visualization, user considerations, and automation.
 
-## TOC
-
-[Dependencies](#python-dependencies)
+## Table of Contents
+1) [Summary of Features](#summary-of-features)
+2) [Python Dependencies](#python-dependencies)
+3) [Optimization Algorithm](#optimization-technique)
+4) [Message System](#simple-diagram-of-the-message-system)
+5) [Algorithm Implementation](#implementation-of-message-optimization-algorithm)
+6) [Optimization Tool](#optimization-tool)
+7) [Data Visualization](#data-visualization-and-automation)
+8) [Remarks](#remarks)
 
 ## Summary of Features
 
@@ -19,9 +25,12 @@
 2) [Pandas](https://pypi.org/project/pandas/#files)
 3) [Matplotlib](https://pypi.org/project/matplotlib/)
 
-## Technique - Simplified 2D Bin Packing Algorithm
+## Optimization Technique
 
-  [Optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) techniques are the means to select the best value with respect to a set of other available alternatives. In many practical cases, we seek to improve a value, parameter, path, or element or set of elements through manipulating a set of parameter(s). This optimization may involve maximizing, minimizing, or getting close to a specific reference point or metric. Examples of this involve ["hill climbing" algorithms](https://en.wikipedia.org/wiki/Hill_climbing), where one starts with an arbitary solution (that may or may not be optimial), and attempts to find a better solution through iterative changes. If the change results in improving the existing solution, then it is incorporated, and another change will be attempted. This process continues until: no further improvements can be made, the magnitude of those improvements become diminishingly small (example of diminishing returns), or the desired level of accuracy of optimization (sometimes called "error") is achieved. The technique accomplished by this tool performs a local search in a single pass. It does not search globally for a solution due to the exhaustive nature of that process. It was more important for this program to be run quickly and return a reasonably good solution, then take more time and perform a more thorough search to return the most optimial solution (e.g. global maximum).
+  [Optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) techniques are the means to select the best value with respect to a set of other available alternatives. In many practical cases, we seek to improve a value, parameter, path, or element or set of elements through manipulating a set of parameter(s). This optimization may involve maximizing, minimizing, or getting close to a specific reference point or metric. Examples of this involve ["hill climbing" algorithms](https://en.wikipedia.org/wiki/Hill_climbing), where one starts with an arbitary solution (that may or may not be optimial), and attempts to find a better solution through iterative changes. If the change results in improving the existing solution, then it is incorporated, and another change will be attempted. This process continues until: no further improvements can be made, the magnitude of those improvements become diminishingly small (example of diminishing returns), or the desired level of accuracy of optimization (sometimes called "error") is achieved. The technique accomplished by this tool performs a local search in a single pass. It does not search globally for a solution due to the exhaustive nature of that process. It was more important for this program to be run quickly and return a reasonably good solution, then take more time and perform a more thorough search to return the most optimial solution (e.g. global maximum). 
+  
+  The solution arrived at by this tool is a highly simplified 2D bin packing algorithm. The process of finding an optimial packing of items, each with their own weights, within a given space is classically referred to as the [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem). 
+>The knapsack problem or rucksack problem is a problem in combinatorial optimization: Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible
 
 ### Simple Diagram of the Message System
 
@@ -46,7 +55,7 @@ The program then generates the optimized files, as well as generates a file show
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Optimized_Message.PNG" align="center" height="460" width="500" ></a>
  
 
-## Optimization Tool GUI
+## Optimization Tool
 
 ### Main View
 1) Input file directory
@@ -64,15 +73,20 @@ The program then generates the optimized files, as well as generates a file show
 
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_Second.PNG" align="center"></a>
 
-## Data-Visualization and Automation
+## Data Visualization and Automation
   In addition to the optimization function, this tool provides a clean data-visualization of **before** and **after** the optimization has taken place. This is useful to inform the extent of the optmization, demonstrate its value, as well determine its necessity. The input files are actively being worked on, and over time entropy may build, and the optimial configuration of the messages may drift, thus demonstrating that it is necessary to optimize the message buffer. Conversely, if the messages are in a reasonably good configuration, it may not be necessary to expend the effort to refactor the messages. The process of changing the message code in production is a highly involved process with many checks and balances, thus chaanges should only be undertaken if they pose a significant enough benefit.
   
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Data_Vis.png" align="center"></a>
 
 
-## Input File Structure and Remarks   
+## Remarks
+
+### Input File Structure
    As with any set of input that follows a fixed structure, there are symbols and identifiers for indicating different types of data. In our case we have simplified that into: *message* and *non-message* data. We will not be delving into this here, as it is tangential to the algorithm as a whole, but it is important to note that this tool is built to read in raw input files as actively utilized by the message system, and not merely cleaned up versions of the messages themselves. This provides an convenient means for the user to make use of this tool without significant work on their part.
-   
+
+### Final Comments
+
+  Overall, this project was a joy to create, and a solo-effort, with lots of feedback from multiple users, engineers, and subject matter experts. From the onset of gathering technical requirements, learning and testing different optimization methods, iterative prototyping and development, and finally building a user interface (UI) as well as data visualization. The value in the data visualization is two-fold: (1) To help establish a business-case by presenting the value the optimization offers, (2) To asertain if the optimization is necessary at any given point in time. My hope is that the process of documenting this journey helps assist others who are trying to solve similar problems, and serve as a stepping stone for even more exciting software projects that delve into the beauty of software development, algorithms, and engineering. My best wishes to you.
 
 
 
