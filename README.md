@@ -66,7 +66,7 @@ An end-to-end block diagram is outlined below illustrating the simple data proce
 **Key considerations:**
  1) Local copy of input files are made instead of reading from production file repository
  2) Offers user both automatic and manual (suggested message order) methods of implementing the optimized memory configuration
- 3) Data visualization shows improvement individually by file, and as a whole. Allowing for users to choose which production files in production are worth changing.
+ 3) Data visualization shows improvement individually by file, and as a whole. Allowing for users to choose which files in production are worth changing.
 
 
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Message_Optimization_Flow.PNG" align="center"></a>
