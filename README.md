@@ -72,12 +72,12 @@ An end-to-end block diagram is outlined below illustrating the simple data proce
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Message_Optimization_Flow.PNG" align="center"></a>
 
 ### Main View
-   
-<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_First.PNG" align="center"></a>
 
-1) Input file directory
-2) Auto-save Optimization Data Visualization Plot
-3) Output Directory, contains:
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_First.PNG" align="center"></a>
+**Description**
+ 1) Input file directory
+ 2) Auto-save Optimization Data Visualization Plot
+ 3) Output Directory, contains:
    - optimized files
    - copied raw files 
    - message order list
