@@ -61,6 +61,13 @@ The program then generates the optimized files, as well as generates a file show
 
 ### Data Workflow
 
+An end-to-end block diagram is outlined below illustrating the simple data processing pipeline. 
+**Key considerations:**
+1) Local copy of input files are made instead of reading from production file repository
+2) Offers user both automatic and manual (suggested message order) methods of implementing the optimized memory configuration
+3) Data visualization shows improvement individually by file, and as a whole. Allowing for users to choose which production files in production are worth changing.
+
+
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Message_Optimization_Flow.PNG" align="center"></a>
 
 ### Main View
@@ -78,6 +85,9 @@ The program then generates the optimized files, as well as generates a file show
 ### Settings View
 
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_Second.PNG" align="center"></a>
+
+**User Consideration**
+Automatically generated optimized files are **not** activated default due to their processing time (approximately 1 minute). This enables the users to be able to first analyze the percent improvement offered by the optimization (via the data visualization plot), and then make a decision.
 
 ## Data Visualization and Automation
   In addition to the optimization function, this tool provides a clean data-visualization of **before** and **after** the optimization has taken place. This is useful to inform the extent of the optmization, demonstrate its value, as well determine its necessity. The input files are actively being worked on, and over time entropy may build, and the optimial configuration of the messages may drift, thus demonstrating that it is necessary to optimize the message buffer. Conversely, if the messages are in a reasonably good configuration, it may not be necessary to expend the effort to refactor the messages. The process of changing the message code in production is a highly involved process with many checks and balances, thus chaanges should only be undertaken if they pose a significant enough benefit.
