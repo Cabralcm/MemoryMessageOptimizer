@@ -2,7 +2,7 @@
 
   This repository details an end-to-end optimization solution that was built for a real-time messaging system. The specific use-case has been redacted as it is superflucous to the exercise itself. Instead effort has been made to demonstrate fundamental principles of: computing and data structures, algorithmic thinking, basic compression, data visualization, user considerations, and automation.
   
- >Please Note: No raw files have been provided. All original details removed. What remains is the design structure, algorithm, python code, Tcl/Tk GUI, and data visualization. These have been provided for the hope that I will be able to share my learning with those on a similar path.
+ >**Please Note:** No raw files have been provided. All original details removed. What remains is the design structure, algorithm, python code, Tcl/Tk GUI, and data visualization. These have been provided for the hope that I will be able to share my learning with those on a similar path.
 
 ## Table of Contents
 1) [Summary of Features](#summary-of-features)
@@ -62,10 +62,11 @@ The program then generates the optimized files, as well as generates a file show
 ### Data Workflow
 
 An end-to-end block diagram is outlined below illustrating the simple data processing pipeline. 
+
 **Key considerations:**
-1) Local copy of input files are made instead of reading from production file repository
-2) Offers user both automatic and manual (suggested message order) methods of implementing the optimized memory configuration
-3) Data visualization shows improvement individually by file, and as a whole. Allowing for users to choose which production files in production are worth changing.
+ 1) Local copy of input files are made instead of reading from production file repository
+ 2) Offers user both automatic and manual (suggested message order) methods of implementing the optimized memory configuration
+ 3) Data visualization shows improvement individually by file, and as a whole. Allowing for users to choose which production files in production are worth changing.
 
 
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Message_Optimization_Flow.PNG" align="center"></a>
