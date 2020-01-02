@@ -59,6 +59,10 @@ The program then generates the optimized files, as well as generates a file show
 
 ## Optimization Tool
 
+### Data Workflow
+
+<a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Message_Optimization_Flow.PNG" align="center"></a>
+
 ### Main View
    
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_First.PNG" align="center"></a>
