@@ -72,8 +72,9 @@ An end-to-end block diagram is outlined below illustrating the simple data proce
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Message_Optimization_Flow.PNG" align="center"></a>
 
 ### Main View
-
+<br>
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_First.PNG" align="center"></a>
+<br>
 **Description**
  1) Input file directory
  2) Auto-save Optimization Data Visualization Plot
@@ -84,15 +85,16 @@ An end-to-end block diagram is outlined below illustrating the simple data proce
    - data visualization plot
 
 ### Settings View
-
+<br>
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_Second.PNG" align="center"></a>
-
+<br>
 **User Consideration**
 Automatically generated optimized files are **not** activated default due to their processing time (approximately 1 minute). This enables the users to be able to first analyze the percent improvement offered by the optimization (via the data visualization plot), and then make a decision.
 
 ## Data Visualization and Automation
   In addition to the optimization function, this tool provides a clean data-visualization of **before** and **after** the optimization has taken place. This is useful to inform the extent of the optmization, demonstrate its value, as well determine its necessity. The input files are actively being worked on, and over time entropy may build, and the optimial configuration of the messages may drift, thus demonstrating that it is necessary to optimize the message buffer. Conversely, if the messages are in a reasonably good configuration, it may not be necessary to expend the effort to refactor the messages. The process of changing the message code in production is a highly involved process with many checks and balances, thus chaanges should only be undertaken if they pose a significant enough benefit.
   
+<br> 
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/Data_Vis.png" align="center"></a>
 
 
@@ -104,6 +106,3 @@ Automatically generated optimized files are **not** activated default due to the
 ### Final Comments
 
   Overall, this project was a joy to create, and a solo-effort, with lots of feedback from multiple users, engineers, and subject matter experts. From the onset of gathering technical requirements, learning and testing different optimization methods, iterative prototyping and development, and finally building a user interface (UI) as well as data visualization. The value in the data visualization is two-fold: (1) To help establish a business-case by presenting the value the optimization offers, (2) To asertain if the optimization is necessary at any given point in time. My hope is that the process of documenting this journey helps assist others who are trying to solve similar problems, and serve as a stepping stone for even more exciting software projects that delve into the beauty of software development, algorithms, and engineering. My best wishes to you.
-
-
-
