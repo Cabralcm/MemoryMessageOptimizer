@@ -1,6 +1,6 @@
 # Message Buffer Optimizer
 
-  This repository details an end-to-end optimization solution that was built for a real-time messaging system. The specific use-case has been redacted as it is superflucous to the exercise itself. Instead effort has been made to demonstrate fundamental principles of: computing and data structures, algorithmic thinking, basic compression, data visualization, user considerations, and automation.
+  This repository details an end-to-end optimization solution that was built for a real-time messaging system. The specific use-case has been redacted as it is superflucous to the exercise itself. Instead effort has been made to demonstrate fundamental principles of: computing and data structures, algorithmic thinking, basic compression, data visualization, user-centered design considerations, and automation.
   
  >**Please Note:** No raw files have been provided. All original details removed. What remains is the design structure, algorithm, python code, Tcl/Tk GUI, and data visualization. These have been provided for the hope that I will be able to share my learning with those on a similar path.
 
