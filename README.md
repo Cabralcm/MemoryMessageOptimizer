@@ -88,9 +88,12 @@ An end-to-end block diagram is outlined below illustrating the simple data proce
 ### Settings View
 <br>
 <a href="url"><img src="https://github.com/Cabralcm/MemoryMessageOptimizer/blob/master/Images/GUI_Second.PNG" align="center"></a>
-<br>
+
+
+
 
 **User Consideration**
+
 Automatically generated optimized files are **not** activated default due to their processing time (approximately 1 minute). This enables the users to be able to first analyze the percent improvement offered by the optimization (via the data visualization plot), and then make a decision.
 
 ## Data Visualization and Automation
